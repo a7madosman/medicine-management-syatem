@@ -1,25 +1,23 @@
 export default class Config {
-  static loginUrl = "http://localhost:8000/api/gettoken/";
-  static refreshApiUrl = "http://localhost:8000/api/refresh_token/";
-  static companyApiUrl = "http://localhost:8000/api/company/";
-  static companyBankyApiUrl = "http://localhost:8000/api/companybank/";
-  static companyonly = "http://localhost:8000/api/companyonly/";
-  static generateBillApiUrl = "http://localhost:8000/api/generate_bill_api/";
-  static medicineApiUrl = "http://localhost:8000/api/medicine/";
-  static medicineByNameApiUrl = "http://localhost:8000/api/medicinebyname/";
-  static companyAccountApiUrl = "http://localhost:8000/api/companyaccount/";
-  static customerRequestApiUrl = "http://localhost:8000/api/customer_request/";
-  static homeApiUrl = "http://localhost:8000/api/home_api/";
+  static BASE_URL = "https://test-manage-system.herokuapp.com/";
+  static loginUrl = BASE_URL + "api/gettoken/";
+  static refreshApiUrl = BASE_URL + "api/refresh_token/";
+  static companyApiUrl = BASE_URL + "api/company/";
+  static companyBankyApiUrl = BASE_URL + "api/companybank/";
+  static companyonly = BASE_URL + "api/companyonly/";
+  static generateBillApiUrl = BASE_URL + "api/generate_bill_api/";
+  static medicineApiUrl = BASE_URL + "api/medicine/";
+  static medicineByNameApiUrl = BASE_URL + "api/medicinebyname/";
+  static companyAccountApiUrl = BASE_URL + "api/companyaccount/";
+  static customerRequestApiUrl = BASE_URL + "api/customer_request/";
+  static homeApiUrl = BASE_URL + "api/home_api/";
 
-  static employeeBankApiUrl = "http://localhost:8000/api/employee_all_bank/";
-  static employeeSalaryApiUrl =
-    "http://localhost:8000/api/employee_all_salary/";
+  static employeeBankApiUrl = BASE_URL + "api/employee_all_bank/";
+  static employeeSalaryApiUrl = BASE_URL + "api/employee_all_salary/";
 
-  static employeeApiUrl = "http://localhost:8000/api/employee/";
-  static employeeBankByIdApiUrl =
-    "http://localhost:8000/api/employee_bankby_id/";
-  static employeeSalaryByIdApiUrl =
-    "http://localhost:8000/api/employee_salaryby_id/";
+  static employeeApiUrl = BASE_URL + "api/employee/";
+  static employeeBankByIdApiUrl = BASE_URL + "api/employee_bankby_id/";
+  static employeeSalaryByIdApiUrl = BASE_URL + "api/employee_salaryby_id/";
 
   static homeUrl = "/home";
   static logoutPageUrl = "/logout";
